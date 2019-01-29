@@ -23,6 +23,19 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+#bg{
+  background-image: url("//img1.wsimg.com/isteam/stock/38c31d126351998363ad2b2bdf542b0aee66223d2097f0073f752563b365c1fc/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1500,h:280,cg:true,m/cr=w:1500,h:280,ax:33.7%25,ay:50.87%25");  
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 400px;
+}
+
+
+.top10 { margin-top:10%; }
+.top15 { margin-top:15%; }
+.top17 { margin-top:17%; }
+.top30 { margin-top:30%; }
+
 .darken {
   background-image: 
     linear-gradient(
