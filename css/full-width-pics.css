@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ * 
  */
 
 body {
@@ -15,12 +13,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Play', sans-serif;
 
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 #bg{
@@ -41,6 +39,10 @@ p {
 .top15 { margin-top:15%; }
 .top17 { margin-top:17%; }
 .top30 { margin-top:30%; }
+.bottom10 { margin-bottom:10%; }
+.bottom15 { margin-bottom:15%; }
+.bottom17 { margin-bottom:17%; }
+.bottom30 { margin-bottom:30%; }
 
 .darken {
   background-image: 
