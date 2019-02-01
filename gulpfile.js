@@ -1,6 +1,16 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var pkg = require('./package.json');
+var CleanCSS = require('clean-css');
+var input = 'a{font-weight:bold;}';
+var options = { /* options */ };
+var output = new CleanCSS(options).minify(input);
+
+gulp.task('css', function(){
+   return gulp.src('css/full-width-pics.css')
+  .pipe(CleanCSS())
+  .pipe(gulp.dest('dist'))
+})
 
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function() {

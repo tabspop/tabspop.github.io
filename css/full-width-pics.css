@@ -34,6 +34,9 @@ p {
   color: white;
 }
 
+.round-corners{
+  border-radius: 5px;
+}
 
 .top10 { margin-top:10%; }
 .top15 { margin-top:15%; }
@@ -62,4 +65,11 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
