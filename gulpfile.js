@@ -4,7 +4,7 @@ var CleanCSS = require('gulp-clean-css');
 gulp.task('css', function(){
    return gulp.src('css/full-width-pics.css')
   .pipe(CleanCSS())
-  .pipe(gulp.dest('dist'))
+  .pipe(gulp.dest('build/css'))
 });
 
 gulp.task('html', function(){
