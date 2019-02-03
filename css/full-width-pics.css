@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ * 
  */
 
 body {
@@ -15,25 +13,51 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Play', sans-serif;
 
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
-.darken {
+/* #bg{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("//img1.wsimg.com/isteam/stock/38c31d126351998363ad2b2bdf542b0aee66223d2097f0073f752563b365c1fc/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1500,h:280,cg:true,m/cr=w:1500,h:280,ax:33.7%25,ay:50.87%25");  
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 400px;
+  color: white;
+} */
+
+.round-corners{
+  border-radius: 5px;
+}
+
+.top10 { margin-top:10%; }
+.top15 { margin-top:15%; }
+.top17 { margin-top:17%; }
+.top30 { margin-top:30%; }
+.bottom10 { margin-bottom:10%; }
+.bottom15 { margin-bottom:15%; }
+.bottom17 { margin-bottom:17%; }
+.bottom30 { margin-bottom:30%; }
+
+/* .darken {
   background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url(images/surv-img.jpg);
-}
+} */
 
 
-.bg-image-full {
+/* .bg-image-full {
   height: 100%;
   background: no-repeat center center scroll;
 
@@ -41,4 +65,30 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+} */
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
+
+.jumbotron.bg {
+  /* background-image: url(images/surv-img.jpg); */
+  /* background-size: cover; */
+  background-image: url("//img1.wsimg.com/isteam/stock/38c31d126351998363ad2b2bdf542b0aee66223d2097f0073f752563b365c1fc/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1500,h:280,cg:true,m/cr=w:1500,h:280,ax:33.7%25,ay:50.87%25") no-repeat center center !important; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+/* .push-spaces
+{
+    height: 500px;
+} */
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+ }
