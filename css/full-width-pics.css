@@ -92,3 +92,12 @@ a.anchor {
  html {
   scroll-behavior: smooth;
 }
+
+.darken {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+  border-radius: 2px;
+}
