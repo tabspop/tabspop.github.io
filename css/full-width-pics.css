@@ -99,3 +99,9 @@ a.anchor {
     );
   border-radius: 2px;
 }
+
+ @media (min-width: 1000px) {
+ .container{
+      max-width: 73%;
+  }
+ }
