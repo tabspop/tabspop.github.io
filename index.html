@@ -402,11 +402,12 @@
 
         </div>
         <p class="m-0 text-center text-white">
-          Copyright &copy; Surveillance Solutions
+          Copyright &copy; Surveillance Solutions <span id="year"></span>
           <script type="text/javascript">
             var today = new Date();
             var year = today.getFullYear();
-            document.write(year);
+            console.log(year)
+            document.getElementById('year').textContent = year;
           </script>
         </p>
       </div>
